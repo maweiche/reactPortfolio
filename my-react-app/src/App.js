@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import NavTabs from './components/NavTabs';
-import AboutMe from './components/AboutMe';
+import AboutMe from './components/pages/AboutMe';
 
 function App() {
   return (
