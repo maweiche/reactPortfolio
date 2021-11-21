@@ -6,11 +6,12 @@ const styles = {
         background: 'black',
         display: 'flex',
         justifyContent: 'center',
+        color: 'white'
 
     }
 };
 
-function AboutMe() {
+export default function About() {
     return (
         <div style={styles.card}>
             <p> Hello! I am a (soon to be) Full-Stack Web Developer originally from North Carolina, now located in California. 
@@ -21,4 +22,3 @@ function AboutMe() {
     );
 }
 
-export default AboutMe;
