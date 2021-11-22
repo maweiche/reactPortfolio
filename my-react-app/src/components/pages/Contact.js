@@ -1,28 +1,62 @@
 import React from 'react';
 
-const styles = {
-    card: {
-        margin: 5,
-        background: 'black',
-        display: 'flex',
-        justifyContent: 'center',
-        color: 'white'
+// const styles = {
+//     card: {
+//         margin: 5,
+//         background: 'black',
+//         display: 'flex',
+//         justifyContent: 'center',
+//         color: 'white'
 
-    }
-};
+//     }
+// };
 
-export default function About() {
+export default function Contact() {
     return (
-        <div style={styles.card}>
-            <p> Hello! I am a (soon to be) Full-Stack Web Developer originally from North Carolina, now located in California. 
-                <br/>I obtained a Bachelor's Degree in Business Administration from North Carolina State University and received my 
-                <br/>Full-Stack Web Development education from UC Berkeley. 
-                I am an avid outdoors person and love to design applications that have a positive impact on the World we live in!</p>
-
-                <a href="https://www.linkedin.com/in/mattweichel/"  class="fa fa-linkedin">a</a>
-                <a href="https://github.com/maweiche"  class="fa fa-github">a</a>
-                <a href="https://www.instagram.com/matt_weichel/" class="fa fa-instagram">a</a>
+        <article class="row">
+        <div class="card" id="cardContainer">
+            <div id="contact" class="card-body">
+                <h5 class="card-title">Contact</h5>
+                <p class="card-text">
+                Email: mweiche@gmail.com <br/>
+                Cell: (336)456-0003 <br/>
+                <br/>    
+                Feel Free to contact me through the channels above or just click the button below!
+                </p>
+                <button id="msgBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Send Matt a Message</button>
+            </div>
         </div>
+        {/* <!-- Modal Components --> */}
+        <div class="modal" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                     <h5 class="modal-title" id="contactModalLabel">New message</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">&times;</span>
+                     </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                            <label for="subject" class="col-form-label">Subject:</label>
+                            <input type="text" class="form-control" id="subject" />
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send Message</button>
+                </div>
+            </div>
+        </div>
+        
+    </article>
     );
 }
 
