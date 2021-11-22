@@ -2,18 +2,11 @@ import React from 'react';
 
 const styles = {
     card: {
-        margin: 5,
-        background: 'black',
-        display: 'flex',
-        justifyContent: 'center',
 
-    },
-    heading: {
-        minHeight: 8,
-        fontSize: 16,
-        color: 'white',
-        padding: '0 20px',
-    },
+        display: 'flex',
+        justifyContent: 'flex-end',
+
+    }
 };
 
 
@@ -22,23 +15,23 @@ return (
     <ul className="nav nav-tabs" styles={styles.card}>
       <li className="nav-item">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
-          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
-        >
-          Home
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#about"
           onClick={() => handlePageChange('About')}
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
           About Me
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          href="#home"
+          onClick={() => handlePageChange('Resume')}
+          // This is a conditional (ternary) operator that checks to see if the current page is "Home"
+          // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
         </a>
       </li>
       <li className="nav-item">
