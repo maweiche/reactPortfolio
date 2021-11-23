@@ -5,9 +5,141 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #468189;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav{
+  background-color: #031926;
+  /* align-items: center; */
+}
+
+#time{
+  color: white;
+  text-align: center;
+}
+
+h5{
+  font-weight: 900;
+}
+
+#icons, #resume {
+  text-align: center;
+}
+
+
+
+#profilePic {
+  border-radius: 20%;
+  max-width: 20vw;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#p1{
+  align-items: center;
+  overflow:hidden;
+  height: fit-content;
+  width: 100%;
+  background: radial-gradient(circle at bottom, grey 0, #031926 100%);
+}
+
+#p2 {
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid lightslategray;
+  background: radial-gradient(circle at top right, grey 0, #031926 100%);
+  width: 50%;
+  height: 50vh;
+}
+
+#p3{
+  align-items: center;
+  overflow: hidden;
+  border: 1px solid lightslategray;
+  background: radial-gradient(circle at top left, grey 0, #031926 100%);
+  width: 50%;
+  height: 50vh;
+}
+
+#cardContainer {
+  overflow: hidden;
+  min-height: fit-content;
+  margin: 5px;
+  background: #F4E9CD;
+  color: #031926;
+  min-width: 100%;
+  text-align: center;
+}
+
+#text-block{
+  font-size:larger;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: .6;
+  
+}
+
+#contactModal {
+  animation-name: rotate;
+  animation-duration: .5s;
+  animation-iteration-count: 2s;
+  animation-timing-function: linear;
+}
+
+.fa{
+  display: inline-block;
+  padding: 2px;
+  font-size: 30px;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  margin: 5px;
+}
+
+.fa-linkedin {
+  background: transparent;
+  color: #0E76A8;
+}
+
+.fa-github {
+  color: white;
+  background: transparent;
+}
+
+.fa-instagram {
+  color: #8a3ab9;
+  background: transparent;
+}
+
+@keyframes rotate {
+  from{
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 778px) {
+  main,
+  nav {
+      flex-direction: column;
+  }
+  body{
+      width: auto;
+      margin: 2px;
+  }
 }
