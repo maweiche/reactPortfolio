@@ -1,4 +1,7 @@
 import React from 'react';
+import Weather from './images/WeatherDash.gif'
+import Kanye from './images/MobileKanyeYoda.gif'
+import PasswordG from './images/PasswordGenerator.gif'
 
 export default function Projects () {
     return (
@@ -13,7 +16,7 @@ export default function Projects () {
                     <div class="row">
                         <div id="p1" class="card">
                             <a href="https://maweiche.github.io/project_one/"  >
-                            <img src="/images/Mobile Kanye Yoda.gif" alt="Web API demo gif" /></a>
+                            <img src={Kanye} alt="WebAPIdemo.gif" /></a>
                             <h6 id="text-block">Dual API Quote Generator/Translator</h6>
                         </div>
                     </div>
@@ -21,13 +24,13 @@ export default function Projects () {
                     <div class="row">
                         <div id="p2" class="card">
                             <a href="https://maweiche.github.io/weatherdash/">
-                            <img src="/images/Weather Dash.gif" alt="Weather Dashboard gif" /></a>
+                            <img src={Weather} alt="WeatherDashboard.gif" /></a>
                             <h6 id="text-block">API Weather Dashboard</h6>
                         </div>
                     {/* <!-- Project 3 --> */}
                         <div id ="p3" class="card">
                             <a href="https://maweiche.github.io/password-generator/">
-                            <img src="/images/Password Generator.gif" alt="Password Generator gif" /></a>
+                            <img src={PasswordG} alt="PasswordGenerator.gif" /></a>
                             <h6 id="text-block">JavaScript Password Generator</h6>
                         </div>
                     </div>
