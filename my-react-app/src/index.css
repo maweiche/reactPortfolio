@@ -25,6 +25,8 @@ code {
 
 h5{
   font-weight: 900;
+  color: white;
+  margin: 8px;
 }
 
 #icons, #resume {
@@ -66,6 +68,11 @@ h5{
   background: radial-gradient(circle at top left, grey 0, #031926 100%);
   width: 50%;
   height: 50vh;
+}
+
+#name{
+  color: white;
+  font-size: larger;
 }
 
 #cardContainer {

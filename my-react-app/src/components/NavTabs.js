@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const styles = {
     card: {
 
@@ -13,6 +14,7 @@ const styles = {
 function NavTabs({ currentPage, handlePageChange}) {
 return (
     <ul className="nav nav-tabs" styles={styles.card}>
+      <h5>Matt Weichel's Portfolio </h5>
       <li className="nav-item">
         <a
           href="#about"
