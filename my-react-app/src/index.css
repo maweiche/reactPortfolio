@@ -23,6 +23,11 @@ code {
   text-align: center;
 }
 
+h2{
+  color: Black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 h5{
   font-weight: 900;
   color: white;
@@ -70,7 +75,7 @@ h5{
   border: 1px solid lightslategray;
   background: radial-gradient(circle at top right, grey 0, #031926 100%);
   width: 50%;
-  height: 50vh;
+  max-height: auto;
 }
 
 #p3{

@@ -16,7 +16,7 @@ export default function Contact() {
         <article class="row">
         <div class="card" id="cardContainer">
             <div id="contact" class="card-body">
-                <h5 class="card-title">Contact</h5>
+                <h2 class="card-title">Contact</h2>
                 <p class="card-text">
                 Email: mweiche@gmail.com <br/>
                 Cell: (336)456-0003 <br/>
