@@ -22,9 +22,6 @@ export default function About() {
                 <br/>Full-Stack Web Development education from UC Berkeley. 
                 I am an avid outdoors person and love to design applications that have a positive impact on the World we live in!
                 <br/>
-                <a href="https://www.linkedin.com/in/mattweichel/"  class="fa fa-linkedin"> </a>
-                <a href="https://github.com/maweiche"  class="fa fa-github"> </a>
-                <a href="https://www.instagram.com/matt_weichel/" class="fa fa-instagram"> </a>
                 </p>
         </div>
     );

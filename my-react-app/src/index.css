@@ -29,11 +29,23 @@ h5{
   margin: 8px;
 }
 
-#icons, #resume {
+#icons{
   text-align: center;
 }
 
+#resume {
+  text-align: center;
+  font-size: 20px;
+  background-color: #468189;
+}
 
+#skillset {
+  max-width: 60vw;
+  height: auto;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
 #profilePic {
   border-radius: 20%;
