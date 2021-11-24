@@ -14,7 +14,8 @@ The goal of this portfolio is to provide an updated snapshot of my current profe
 
 ## Deployed Link
 
-* [See Live Site](https://github.com/maweiche/reactPortfolio)
+* [See Github Repo](https://github.com/maweiche/reactPortfolio)
+* [See Live Site](https://maweiche.github.io/reactPortfolio/)
 
 ## Live Site Snapshots
 
