@@ -10,7 +10,6 @@ The goal of this portfolio is to provide an updated snapshot of my current profe
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Bootstrap](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Moment.JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
 * [React.JS](https://reactjs.org/)
 
 ## Deployed Link
