@@ -8,7 +8,7 @@ export default function Resume() {
     return (
         <div class="card" id="cardContainer" >
             <img src={Skills} alt="skillset" id="skillset"/>
-            <a id="resume" href={MWResume}  download="MWresume"><h2>Download My Resume</h2></a>
+            <a id="resume" href={MWResume}  download="MWresume"><h1>Download My Resume</h1></a>
         </div>
     );
 }

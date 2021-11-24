@@ -21,9 +21,11 @@ export default function Contact() {
 
     <form onSubmit={handleSubmit(onSubmit)}>
       <input type="text" placeholder="First name" {...register("First name", {required: true, maxLength: 80})} />
+      <br />
       <input type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
+      <br />
       <textarea {...register("Message", {required: true, max: 300, min: 1})} />
-
+      <br />
       <input type="submit" class="btn btn-primary"/>
     </form>
     </div>
