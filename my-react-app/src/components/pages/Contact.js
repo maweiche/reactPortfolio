@@ -11,7 +11,7 @@ export default function Contact() {
             <div id="contact" class="card-body">
                 <h2 class="card-title">Contact</h2>
                 <p class="card-text">
-                Email: mweiche@gmail.com <br/>
+                Email: maweiche@gmail.com <br/>
                 Cell: (336)456-0003 <br/>
                 <br/>    
                 Feel Free to contact me through the channels above or just click the button below!
