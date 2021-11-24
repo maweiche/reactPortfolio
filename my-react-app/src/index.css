@@ -74,17 +74,15 @@ h5{
   overflow: hidden;
   border: 1px solid lightslategray;
   background: radial-gradient(circle at top right, grey 0, #031926 100%);
-  width: 50%;
-  max-height: auto;
+  min-width: 50vw;
+  max-height: 50vh;
+  object-fit: contain;
+  
 }
 
 #p3{
-  align-items: center;
-  overflow: hidden;
-  border: 1px solid lightslategray;
-  background: radial-gradient(circle at top left, grey 0, #031926 100%);
-  width: 50%;
-  height: 50vh;
+  min-width: 50%;
+  max-height: fit-content;
 }
 
 #name{
@@ -115,12 +113,21 @@ h5{
   
 }
 
-#contactModal {
+input {
+  width: 600px;
+}
+
+textarea {
+  height: 10em;
+  width: 600px;
+}
+
+/* #contactModal {
   animation-name: rotate;
   animation-duration: .5s;
   animation-iteration-count: 2s;
   animation-timing-function: linear;
-}
+} */
 
 footer {
   margin: auto;

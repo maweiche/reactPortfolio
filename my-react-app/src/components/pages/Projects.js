@@ -16,44 +16,44 @@ export default function Projects () {
                         Click a project to see it in or action or check out it's GitHub Repo!
                         </p>
                     {/* <!-- Project 1 --> */}
-                    <div class="row">
-                        <div id="p3" class="card">
+                    <div id="p3" class="row">
+                        <div class="card">
                             <a href="https://maweiche.github.io/project_one/"  >
-                            <img src={Kanye} alt="WebAPIdemo.gif" /></a>
+                            <img id="p2" src={Kanye} alt="WebAPIdemo.gif" /></a>
                             <h6 id="text-block">Dual API Quote Generator/Translator</h6>
                         </div>
                         {/* Project 2 */}
-                        <div id="p2" class="card">
+                        <div  class="card">
                             <a href="https://stormy-crag-17205.herokuapp.com/"  >
-                            <img src={TechBlog} alt="TechBlog.png" /></a>
+                            <img id="p2" src={TechBlog} alt="TechBlog.png" /></a>
                             <h6 id="text-block">Tech Blog</h6>
                         </div>
                     </div>
                     {/* <!-- Project 3 --> */}
                     <div class="row">
-                        <div id="p2" class="card">
+                        <div  class="card">
                             <a href="https://maweiche.github.io/weatherdash/">
-                            <img src={Weather} alt="WeatherDashboard.gif" /></a>
+                            <img id="p2" src={Weather} alt="WeatherDashboard.gif" /></a>
                             <h6 id="text-block">API Weather Dashboard</h6>
                         </div>
                     {/* <!-- Project 4 --> */}
-                        <div id ="p2" class="card">
+                        <div  class="card">
                             <a href="https://maweiche.github.io/password-generator/">
-                            <img src={PasswordG} alt="PasswordGenerator.gif" /></a>
+                            <img id="p2" src={PasswordG} alt="PasswordGenerator.gif" /></a>
                             <h6 id="text-block">JavaScript Password Generator</h6>
                         </div>
                     </div>
                     {/* Project 5 */}
                     <div class="row">
-                        <div id="p2" class="card">
+                        <div class="card">
                             <a href="https://tranquil-lake-00499.herokuapp.com/">
-                            <img src={Fitness} alt="Fitness Tracker" /></a>
+                            <img id="p2" src={Fitness} alt="Fitness Tracker" /></a>
                             <h6 id="text-block">Fitness Tracker</h6>
                         </div>
                     {/* <!-- Project 6 --> */}
-                        <div id ="p2" class="card">
+                        <div class="card">
                             <a href="https://maweiche.github.io/password-generator/">
-                            <img src={Tpg} alt="Team Profile Generator" /></a>
+                            <img id="p2" src={Tpg} alt="Team Profile Generator" /></a>
                             <h6 id="text-block">Team Profile Generator</h6>
                         </div>
                     </div>
