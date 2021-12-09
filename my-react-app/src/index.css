@@ -100,15 +100,7 @@ h5{
   font-size: larger;
 }
 
-#cardContainer {
-  overflow: hidden;
-  min-height: fit-content;
-  margin: 5px;
-  background: #F4E9CD;
-  color: #031926;
-  min-width: 100%;
-  text-align: center;
-}
+
 
 #text-block{
   font-size:larger;

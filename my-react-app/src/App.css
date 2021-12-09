@@ -28,6 +28,42 @@
   color: #61dafb;
 }
 
+#cardContainer {
+  overflow: hidden;
+  min-height: fit-content;
+  margin: 5px;
+  background: #F4E9CD;
+  color: #031926;
+  min-width: 100%;
+  text-align: center;
+  align-items: center;
+}
+.fa{
+  display: inline-block;
+  padding: 2px;
+  font-size: 30px;
+  width: fit-content;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  margin: 5px;
+}
+
+.fa-linkedin {
+  background: transparent;
+  color: #0E76A8;
+}
+
+.fa-github {
+  color: white;
+  background: transparent;
+}
+
+.fa-instagram {
+  color: #8a3ab9;
+  background: transparent;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
