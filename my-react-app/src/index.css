@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #468189;
+  justify-content: center;
 }
 
 code {
@@ -84,9 +85,8 @@ h5{
   overflow: hidden;
   border: 1px solid lightslategray;
   background: radial-gradient(circle at top right, grey 0, #031926 100%);
-  min-width: 50vw;
-  max-height: 50vh;
-  object-fit: contain;
+  /* min-width: 50vw;
+  max-height: 50vh; */
   
 }
 
@@ -130,6 +130,7 @@ textarea {
   animation-iteration-count: 2s;
   animation-timing-function: linear;
 } */
+
 
 footer {
   margin: auto;
