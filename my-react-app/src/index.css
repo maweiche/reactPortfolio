@@ -24,9 +24,10 @@ code {
   /* align-items: center; */
 }
 
-#time{
-  color: white;
+#bodyText{
+  color: black;
   text-align: center;
+  font-size: 1rem;
 }
 
 h2{
