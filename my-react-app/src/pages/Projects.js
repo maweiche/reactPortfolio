@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Container, Col, Row, Body } from 'react-bootstrap';
+import { Card, Container, Col, Row } from 'react-bootstrap';
 import Weather from './images/weatherstill.png'
 import Kanye from './images/MobileKanyeYoda.gif'
 import PasswordG from './images/pwdstill.png'
@@ -70,7 +70,7 @@ export default function Projects () {
                     </Card>
                 </Col>
 
-                <Col >
+                {/* <Col >
                     <Card id="p2"  style={{ width: '32rem' }}>
                         <a href="#">
                             <Card.Img  variant="top" src="holder.js/100px160" />
@@ -79,7 +79,7 @@ export default function Projects () {
                             <Card.Title id="name">###<a href="#" className="fa fa-github"> </a></Card.Title>
                         </Card.Body>
                     </Card>
-                </Col>
+                </Col> */}
                 </>
             ))}
             </Row>

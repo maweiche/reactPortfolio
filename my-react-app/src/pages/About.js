@@ -7,7 +7,7 @@ import Logo from './images/logo.svg'
 export default function About() {
     return (
         // <div style={styles.card}>
-        <div  >
+        <Container  >
             <Card className="card" id="cardContainer">
                 <Card.Body>
                     <img src={Logo} alt="logo" id="profilePic"/>
@@ -25,7 +25,7 @@ export default function About() {
                     </Card.Text>
                 </Card.Body>
             </Card>
-        </div>
+        </Container>
     );
 }
 
