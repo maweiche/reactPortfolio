@@ -30,7 +30,7 @@ code {
 }
 
 .nav{
-  background-color: transparent;
+  background: transparent;
   /* align-items: center; */
   height: 100px;
 }
@@ -113,6 +113,18 @@ h5{
   margin-top: 100px;
   color: black;
   justify-content: center;
+}
+
+.no-shadows{
+  box-shadow: none;
+}
+
+.brand-logo{
+  font-family: 'League Script', cursive !important;
+  font-size: 2em !important;
+  margin-top: 20px;
+  font-weight:bold;
+  align-self: center;
 }
 
 #p3{
@@ -201,7 +213,8 @@ footer {
   }
 }
 
-@media screen and (max-width: 778px) {
+@media (min-width:320px)  { 
+  /* smartphones, iPhone, portrait 480x320 phones */ 
   main,
   nav {
       flex-direction: column;
@@ -211,3 +224,75 @@ footer {
       margin: 2px;
   }
 }
+
+@media (min-width:481px)  { 
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  main,
+  nav {
+      flex-direction: column;
+  }
+  body{
+      width: auto;
+      margin: 2px;
+  }
+ }
+
+@media (min-width:641px)  { 
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  main,
+  nav {
+      flex-direction: column;
+  }
+  body{
+      width: auto;
+      margin: 2px;
+  }
+ }
+
+ @media screen and (max-width: 778px) {
+  main,
+  nav {
+      flex-direction: column;
+  }
+  body{
+      width: auto;
+      margin: 2px;
+  }
+}
+
+@media (min-width:961px)  { 
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  main,
+  nav {
+      flex-direction: column;
+  }
+  body{
+      width: auto;
+      margin: 2px;
+  }
+}
+
+@media (min-width:1025px) { 
+  /* big landscape tablets, laptops, and desktops */ 
+  main,
+  nav {
+      flex-direction: column;
+  }
+  body{
+      width: auto;
+      margin: 2px;
+  }
+}
+
+@media (min-width:1281px) { 
+  /* hi-res laptops and desktops */ 
+  main,
+  nav {
+      flex-direction: column;
+  }
+  body{
+      width: auto;
+      margin: 2px;
+  }
+}
+
