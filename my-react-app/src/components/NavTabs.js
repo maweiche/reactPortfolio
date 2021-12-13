@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Offcanvas, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 
@@ -16,31 +16,37 @@ import { Link } from "react-router-dom";
 
 function NavTabs() {
 return (
-  <Navbar class="transparent no-shadows">
-        <Container id="AppNavbar-navbar" fluid>
+  <div>
+  <Navbar collapseOnSelect class="transparent no-shadows" variant="dark">
+        <Container>
           <Navbar.Brand className="align-text-bottom justify-content-center" as={Link} to="/">
-            <span class="brand-logo center black-text"> Matt Weichel's Portfolio </span>
+            <span class="brand-logo text-center white-text"> Matt Weichel's Portfolio </span>
           </Navbar.Brand>
 
-          <Navbar.Toggle aria-controls="navbar" />
-          <Navbar.Collapse id="navbar">
-            <Nav className="ml-auto align-text-bottom">
-                  <Nav.Link as={Link} to="/">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end white-text">
+              <Nav className="me-auto">
+                <NavDropdown title="Check it Out!" class="white-text"  id="collasible-nav-dropdown">
+
+                
+                  <NavDropdown.Item as={Link} to="/">
                     About Me
-                  </Nav.Link>
-                  <Nav.Link as={Link} to="/Resume">
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/Resume">
                     Resume
-                  </Nav.Link>
-                  <Nav.Link as={Link} to="/Projects">
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/Projects">
                     Projects
-                  </Nav.Link>
-                  <Nav.Link as={Link} to="/Contact">
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to="/Contact">
                     Contact
-                  </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+                  </NavDropdown.Item>
+                  </NavDropdown>
+              </Nav>
+            </Navbar.Collapse>
         </Container>
       </Navbar>
+      </div>
     // <ul className="nav nav-tabs" styles={styles.card}>
     //   <h5>Matt Weichel's Portfolio </h5>
     //   <li className="nav-item">

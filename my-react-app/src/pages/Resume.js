@@ -14,7 +14,7 @@ export default function Resume() {
                     <Card.Link id="resume" href={MWResume}  download="MWresume">Download My Resume</Card.Link>
                         
                         <Card.Img src={Skills} alt="skillset" id="skillset"/>
-                        <Card.Text id="bodyText">Check out logos I have designed below!</Card.Text>
+                        <h2>Check out logos I have designed below!</h2>
                         <ControlledCarousel />
                 </Card>
             </Container>
