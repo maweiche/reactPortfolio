@@ -7,27 +7,21 @@ export default function Contact() {
   console.log(errors);
   
   return (
-    <div class="card" id="cardContainer">
+    <div class="card" id="contactContainer" >
             <div id="contact" class="card-body">
-                <h2 class="card-title">Contact</h2>
+                <h4 class="card-title">Contact</h4>
                 <p class="card-text">
-                Email: maweiche@gmail.com <br/>
-                Cell: (336)456-0003 <br/>
+                <h6>Email: maweiche@gmail.com <br/>
+                Cell: (336)456-0003</h6> <br/>
                 <br/>    
-                Feel Free to contact me through the channels above or just click the button below!
+                <h6>Feel Free to contact me through the channels above or through any of the social channels below!</h6>
                 </p>
-                {/* <button id="msgBtn" type="button" class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Send Matt a Message</button> */}
+                <a href="https://www.linkedin.com/in/mattweichel/"  class="fa fa-linkedin"> </a>
+                <a href="https://github.com/maweiche"  class="fa fa-github bg-dark"> </a>
+                <a href="https://www.instagram.com/matt_weichel/" class="fa fa-instagram "> </a>
             </div>
 
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <input type="text" placeholder="First name" {...register("First name", {required: true, maxLength: 80})} />
-      <br />
-      <input type="text" placeholder="Email" {...register("Email", {required: true, pattern: /^\S+@\S+$/i})} />
-      <br />
-      <textarea {...register("Message", {required: true, max: 300, min: 1})} />
-      <br />
-      <input type="submit" class="btn btn-primary"/>
-    </form>
+    
     </div>
   );
 }

@@ -72,6 +72,14 @@ h5{
   font-family: 'League Script', cursive;
 }
 
+#contactContainer {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  text-align: center;
+}
+
 #skillset {
   max-width: 60vw;
   height: auto;
